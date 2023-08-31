@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "erc721a/contracts/ERC721A.sol";
 
-contract MetaToken is ERC721A {
+contract BridgeNFTToken is ERC721A {
     
     address private owner;
     string[] private prompts = [
